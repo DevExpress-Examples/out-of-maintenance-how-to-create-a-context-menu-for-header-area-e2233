@@ -1,4 +1,4 @@
-﻿<Window x:Class="HowToBindToMDB.MainWindow" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars" xmlns:dxpg="http://schemas.devexpress.com/winfx/2008/xaml/pivotgrid" Title="MainWindow" Height="350" Width="525" Loaded="Window_Loaded">
+<Window x:Class="HowToBindToMDB.MainWindow" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars" xmlns:dxpg="http://schemas.devexpress.com/winfx/2008/xaml/pivotgrid" Title="MainWindow" Height="350" Width="525" Loaded="Window_Loaded">
     <Grid>
         <dxpg:PivotGridControl HorizontalAlignment="Left" Name="pivotGridControl1" VerticalAlignment="Top">
             <dxpg:PivotGridControl.Fields>
